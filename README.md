@@ -32,7 +32,7 @@ UID = int(uid_str.replace("xx", "89"))  # Fallback to 89 if unchanged
 
 ## 📂 Programs Index
 
-### 1. Number Theory (9 Programs)
+### 1. Number Theory (10 Programs)
 | File | Algorithm | Description |
 | :--- | :--- | :--- |
 | [`01_fermat_primality.py`](programs/01_fermat_primality.py) | **Fermat Primality Test** | Tests $a^{n-1} \equiv 1 \pmod n$ using UID-derived bases. |
@@ -40,6 +40,7 @@ UID = int(uid_str.replace("xx", "89"))  # Fallback to 89 if unchanged
 | [`03_miller_rabin.py`](programs/03_miller_rabin.py) | **Miller–Rabin Primality Test** | $n - 1 = 2^s \cdot d$ probabilistic test. |
 | [`04_euclidean_gcd.py`](programs/04_euclidean_gcd.py) | **Euclidean Algorithm (GCD)** | Greatest Common Divisor without `math.gcd`. |
 | [`05_extended_euclidean.py`](programs/05_extended_euclidean.py) | **Extended Euclidean Algorithm** | Computes Bézout coefficients and modular multiplicative inverse. |
+| [`05b_chinese_remainder_theorem.py`](programs/05b_chinese_remainder_theorem.py) | **Chinese Remainder Theorem (CRT)** | Solves simultaneous congruences $x \equiv a_i \pmod{m_i}$ for coprime moduli. |
 | [`06_euler_totient.py`](programs/06_euler_totient.py) | **Euler's Totient Function $\phi(n)$** | Counts coprimes $1 \le i \le n$. |
 | [`07_primitive_root.py`](programs/07_primitive_root.py) | **Smallest Primitive Root** | Finds generator $g$ of cyclic group $\mathbb{Z}_p^*$. |
 | [`08_discrete_logarithm.py`](programs/08_discrete_logarithm.py) | **Discrete Logarithm** | Solves $g^x \equiv h \pmod p$. |
@@ -87,3 +88,4 @@ python programs/14_hill_cipher_2x2.py
 python programs/25b_rsa_pss.py
 ```
 Press `Enter` at the prompt to use the default configured values, or type your own custom input!
+
