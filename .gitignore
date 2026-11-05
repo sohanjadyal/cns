@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archives & Temporary Test Scripts
+*.zip
+reference_codes/
+cns_all_28_programs_1549.md
+test_*.py
+generate_*.py
+update_*.py
+programs_uid_2024300089/
